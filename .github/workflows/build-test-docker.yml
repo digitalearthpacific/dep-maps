@@ -71,7 +71,7 @@ jobs:
         run: |
           git fetch --all --tags
           echo "VERSION=$(git describe --tags)" >> $GITHUB_OUTPUT
-g
+
       - name: Build and push
         uses: docker/build-push-action@v4
         with:

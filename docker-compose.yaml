@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  terria:
+    build: .
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./wwwroot/config.json:/app/wwwroot/config.json

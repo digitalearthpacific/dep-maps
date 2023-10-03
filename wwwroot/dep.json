@@ -5,6 +5,7 @@
     "south": -25,
     "west": 178
   },
+  "corsDomains": [ "geoserver.pacificdata.org", "pacificdata.org" ],
   "catalog": [
     {
       "type": "wms",

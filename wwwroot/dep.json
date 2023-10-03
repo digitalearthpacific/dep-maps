@@ -9,14 +9,20 @@
     {
       "type": "wms",
       "name": "Pacific Coastlines",
-      "url": "http://localhost/geoserver/wms",
-      "layers": "dep-coastlines:coastlines"
+      "url": "https://geoserver.pacificdata.org/wms",
+      "layers": "dep:dep_coastlines"
     },
     {
       "type": "wms",
-      "name": "Pacific Water Observations from Space (WOFS)",
-      "url": "http://localhost/geoserver/wms",
-      "layers": "dep-wofs:wofs"
+      "name": "Pacific Water Observations from Space (Landsat)",
+      "url": "https://geoserver.pacificdata.org/wms",
+      "layers": "dep:dep_ls_wofs"
+    },
+    {
+      "type": "wms",
+      "name": "Pacific Mangroves (Sentinel 2)",
+      "url": "https://geoserver.pacificdata.org/wms",
+      "layers": "dep:dep_s2_mangroves"
     },
     {
       "id": "IaRi3Qn1pj",

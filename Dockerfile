@@ -4,3 +4,4 @@ ADD wwwroot/config.json /app/wwwroot/
 ADD wwwroot/dep-terria.png /app/wwwroot/images/
 ADD wwwroot/dep.json /app/wwwroot/init/dep.json
 ADD wwwroot/serverconfig.json /app/wwwroot/serverconfig.json
+ADD wwwroot/index.html /app/wwwroot/

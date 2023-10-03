@@ -22,6 +22,8 @@
     "gov.uk",
     "gov.nz",
     "services.aremi.data61.io",
-    "pacificdata.org"
+    "pacificdata.org",
+    "geoserver.pacificdata.org",
+    "a.s2maps-tiles.eu"
   ]
 }

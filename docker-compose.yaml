@@ -5,5 +5,5 @@ services:
       - "3001:3001"
     volumes:
       - ./wwwroot/config.json:/app/wwwroot/config.json
-      - ./dep.json:/app/wwwroot/dep.json
-
+      - ./wwwroot/dep.json:/app/wwwroot/init/dep.json
+      - ./wwwroot/serverconfig.json:/app/wwwroot/serverconfig.json

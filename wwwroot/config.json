@@ -45,7 +45,7 @@
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
-      "<a target=\"_blank\" href=\"https://www.digitalearthpacific.org\"><img src=\"images/dep.png\" height=\"82\" title=\"Version: {{version}}\" /></a>",
+      "<a target=\"_blank\" href=\"https://www.digitalearthpacific.org\"><img src=\"images/dep-terria.png\" height=\"82\" title=\"Version: {{version}}\" /></a>",
       ""
     ],
     // Shown when things go wrong.

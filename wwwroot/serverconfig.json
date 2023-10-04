@@ -1,6 +1,5 @@
 {
   "port": 3001,
-
   "allowProxyFor": [
     "nicta.com.au",
     "gov.au",
@@ -25,5 +24,16 @@
     "pacificdata.org",
     "geoserver.pacificdata.org",
     "a.s2maps-tiles.eu"
-  ]
+  ],
+  "shareUrlPrefixes": {
+    "g": {
+      "accessToken": "SECRET_TOKEN",
+      "service": "gist",
+      "userAgent": "Digital Earth Pacific",
+      "gistFilename": "dep-usercatalog.json",
+      "gistDescription": "User catalog for Digital Earth Pacific"
+    }
+  },
+  "newShareUrlPrefix": "g",
+  "hostName": "https://maps.digitalearthpacific.org"
 }

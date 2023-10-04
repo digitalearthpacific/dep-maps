@@ -6,4 +6,6 @@ services:
     volumes:
       - ./wwwroot/config.json:/app/wwwroot/config.json
       - ./wwwroot/dep.json:/app/wwwroot/init/dep.json
-      - ./wwwroot/serverconfig.json:/app/wwwroot/serverconfig.json
+      # - ./wwwroot/serverconfig.json:/app/serverconfig.json
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN}

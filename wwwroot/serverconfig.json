@@ -1,6 +1,5 @@
 {
   "port": 3001,
-
   "allowProxyFor": [
     "nicta.com.au",
     "gov.au",
@@ -25,5 +24,17 @@
     "pacificdata.org",
     "geoserver.pacificdata.org",
     "a.s2maps-tiles.eu"
-  ]
+  ],
+  "shareUrlPrefixes": {
+    "s": {
+      "service": "s3",
+      "region": "ap-southeast-2",
+      "bucket": "dep-terria-sharelinks",
+      "accessKeyId": "AWS_ACCESS_KEY_ID",
+      "secretAccessKey": "AWS_SECRET_ACCESS_KEY",
+      "keyLength": 20
+    }
+  },
+  "newShareUrlPrefix": "s",
+  "hostName": "https://maps.digitalearthpacific.org"
 }

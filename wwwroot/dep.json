@@ -7,6 +7,231 @@
   },
   "catalog": [
     {
+      "type": "mvt",
+      "name": "Fast Pacific Coastlines",
+      "url": "https://deppcpublicstorage.blob.core.windows.net/output/tiles/0-4-11/mndwi-clean/coastlines/{z}/{x}/{y}.pbf",
+      "style": {
+        "layers": [
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#040313",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2000]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#150524",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2001]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#250736",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2002]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#360947",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2003]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#470b58",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2004]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#570d69",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2005]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#681566",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2006]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#781d61",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2007]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#88265b",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2008]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#982f56",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2009]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#a83751",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2010]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#b8404b",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2011]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#c94946",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2013]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#d95241",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2014]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#e95a3b",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2015]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#f0693f",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2016]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#040313",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2000]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#040313",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2000]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#f17c48",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2017]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#f18f52",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2018]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#f2a25c",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2019]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#f2b566",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2020]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#f3c870",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2021]]
+          },
+          {
+            "source-layer": "coastlines",
+            "type": "line",
+            "paint": {
+              "line-color": "#f4ee84",
+              "line-width": 1.5
+            },
+            "filter": ["all", ["==", "year", 2022]]
+          }
+        ]
+      }
+    },
+    {
       "type": "wms",
       "name": "Pacific Coastlines",
       "url": "https://geoserver.pacificdata.org/wms",
@@ -155,3 +380,4 @@
     ]
   }
 }
+

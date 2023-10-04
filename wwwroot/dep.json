@@ -16,7 +16,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#040313",
+              "line-color": "#000004",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2000]]
@@ -25,7 +25,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#150524",
+              "line-color": "#08061d",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2001]]
@@ -34,7 +34,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#250736",
+              "line-color": "#170b3a",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2002]]
@@ -43,7 +43,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#360947",
+              "line-color": "#2c0b57",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2003]]
@@ -52,7 +52,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#470b58",
+              "line-color": "#420a68",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2004]]
@@ -61,7 +61,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#570d69",
+              "line-color": "#570f6e",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2005]]
@@ -70,7 +70,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#681566",
+              "line-color": "#6b176e",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2006]]
@@ -79,7 +79,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#781d61",
+              "line-color": "#7f1f6c",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2007]]
@@ -88,7 +88,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#88265b",
+              "line-color": "#932667",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2008]]
@@ -97,7 +97,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#982f56",
+              "line-color": "#a82e5f",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2009]]
@@ -106,7 +106,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#a83751",
+              "line-color": "#bb3755",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2010]]
@@ -115,7 +115,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#b8404b",
+              "line-color": "#cc4248",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2011]]
@@ -124,7 +124,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#c94946",
+              "line-color": "#ea622a",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2013]]
@@ -133,7 +133,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#d95241",
+              "line-color": "#f3771a",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2014]]
@@ -142,7 +142,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#e95a3b",
+              "line-color": "#f98d0a",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2015]]
@@ -151,7 +151,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#f0693f",
+              "line-color": "#fca40b",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2016]]
@@ -160,25 +160,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#040313",
-              "line-width": 1.5
-            },
-            "filter": ["all", ["==", "year", 2000]]
-          },
-          {
-            "source-layer": "coastlines",
-            "type": "line",
-            "paint": {
-              "line-color": "#040313",
-              "line-width": 1.5
-            },
-            "filter": ["all", ["==", "year", 2000]]
-          },
-          {
-            "source-layer": "coastlines",
-            "type": "line",
-            "paint": {
-              "line-color": "#f17c48",
+              "line-color": "#fbbe23",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2017]]
@@ -187,7 +169,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#f18f52",
+              "line-color": "#f6d644",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2018]]
@@ -196,7 +178,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#f2a25c",
+              "line-color": "#f2ee72",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2019]]
@@ -205,7 +187,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#f2b566",
+              "line-color": "#fcffa4",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2020]]
@@ -214,7 +196,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#f3c870",
+              "line-color": "#fbfbe9",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2021]]
@@ -223,7 +205,7 @@
             "source-layer": "coastlines",
             "type": "line",
             "paint": {
-              "line-color": "#f4ee84",
+              "line-color": "#ffffff",
               "line-width": 1.5
             },
             "filter": ["all", ["==", "year", 2022]]

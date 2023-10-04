@@ -5,6 +5,7 @@
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhZDA5MjlhOS0zN2NkLTQ1YjMtOTg1Zi05NjY3NTk2ZjMzNTciLCJpZCI6MTY5ODg1LCJpYXQiOjE2OTY0MDI4NTV9.jyve8JF5xTmRaixpy50qfvD7xwS2TV5tUhD0pwJXKqE",
 
     // Log ConsoleAnalytics events to console
     // logToConsole: true,

@@ -20,10 +20,7 @@
     "gov",
     "gov.uk",
     "gov.nz",
-    "services.aremi.data61.io",
-    "pacificdata.org",
-    "geoserver.pacificdata.org",
-    "a.s2maps-tiles.eu"
+    "services.aremi.data61.io"
   ],
   "shareUrlPrefixes": {
     "s": {

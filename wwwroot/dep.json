@@ -12,7 +12,8 @@
       "url": "https://geoserver.pacificdata.org/dep/wms",
       "layers": "dep:dep_coastlines",
       "tileErrorHandlingOptions": {
-        "thresholdBeforeDisablingItem": 10
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
       }
     },
     {
@@ -21,7 +22,8 @@
       "url": "https://geoserver.pacificdata.org/dep/wms",
       "layers": "dep:dep_ls_wofs",
       "tileErrorHandlingOptions": {
-        "thresholdBeforeDisablingItem": 10
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
       }
     },
     {
@@ -30,7 +32,8 @@
       "url": "https://geoserver.pacificdata.org/dep/wms",
       "layers": "dep:dep_s2_mangroves",
       "tileErrorHandlingOptions": {
-        "thresholdBeforeDisablingItem": 10
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
       }
     },
     {

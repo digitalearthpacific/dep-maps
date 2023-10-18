@@ -120,10 +120,10 @@
       {
         "item": {
           "id": "basemap-esri-world",
-          "type": "wmts",
+          "type": "esri-mapServer",
           "name": "Esri World Imagery",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
-          "layer": "World_Imagery",
+          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "layers": "World Imagery",
           "opacity": 1.0
         },
         "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImagery.png"
@@ -166,3 +166,4 @@
     ]
   }
 }
+

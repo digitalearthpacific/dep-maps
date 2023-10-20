@@ -37,6 +37,16 @@
       }
     },
     {
+      "type": "wms",
+      "name": "Fiji River Gravel Extraction Detection (Beta)",
+      "url": "https://dep-geoserver.westeurope.cloudapp.azure.com/geoserver/dep/wms",
+      "layers": "dep:dep_fj_gravel",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      }
+    },
+    {
       "id": "IaRi3Qn1pj",
       "type": "group",
       "name": "Cloudless Moasics",

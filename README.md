@@ -9,7 +9,15 @@ You can find [their image here](https://github.com/TerriaJS/TerriaMap).
 
 You can see where we're [deploying the image here](https://github.com/digitalearthpacific/dep-kubernetes-apps/blob/main/apps/base/terria/deployment.yaml).
 
-## Dev server
+## Dev/prod config
+
+The dev server loads the `dep.json` file locally, so you can edit that file and
+reload the website and it will show the recent changes.
+
+The live configuration reads the `dep.json` file from github, so we need to
+be careful with the changes we make there as it will go straight to production.
+
+## Running the dev server
 
 You can run a dev server using Docker with:
 

@@ -1,6 +1,6 @@
 {
   /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
-  "initializationUrls": ["https://raw.githubusercontent.com/digitalearthpacific/dep-maps/main/dep.json"],
+  "initializationUrls": ["dep-local"],
   "parameters": {
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,

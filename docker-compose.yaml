@@ -4,8 +4,8 @@ services:
     ports:
       - "3001:3001"
     volumes:
-      - ./wwwroot/config.json:/app/wwwroot/config.json
-      - ./wwwroot/dep.json:/app/wwwroot/init/dep.json
+      - ./wwwroot/config-dev.json:/app/wwwroot/config.json
+      - ./dep.json:/app/wwwroot/init/dep-local.json
     environment:
       - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
       - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}

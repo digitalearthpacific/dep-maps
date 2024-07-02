@@ -18,6 +18,16 @@
     },
     {
       "type": "wms",
+      "name": "Pacific Coastlines V2",
+      "url": "https://dep-geoserver.westeurope.cloudapp.azure.com/geoserver/dep/wms",
+      "layers": "dep:coastlines_v2",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      }
+    },
+    {
+      "type": "wms",
       "name": "Pacific Water Observations from Space (Landsat)",
       "url": "https://dep-geoserver.westeurope.cloudapp.azure.com/geoserver/dep/wms",
       "layers": "dep:dep_ls_wofs",

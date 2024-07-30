@@ -9,6 +9,9 @@ echo "Starting entrypoint.sh"
 # Replace the string SECRETTOKEN in /app/serverconfig.json with the GitHub token
 sed -i "s;SECRET_TOKEN;$GITHUB_TOKEN;g" /app/serverconfig.json
 
+# Replace the string AWS_BUCKET_NAME in /app/serverconfig.json with the GitHub token
+sed -i "s;AWS_BUCKET_NAME;$AWS_BUCKET_NAME;g" /app/serverconfig.json
+
 # Replace the string AWS_ACCESS_KEY_ID in /app/serverconfig.json with the GitHub token
 sed -i "s;AWS_ACCESS_KEY_ID;$AWS_ACCESS_KEY_ID;g" /app/serverconfig.json
 

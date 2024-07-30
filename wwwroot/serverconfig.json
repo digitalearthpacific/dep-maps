@@ -26,7 +26,7 @@
     "s": {
       "service": "s3",
       "region": "ap-southeast-2",
-      "bucket": "dep-terria-sharelinks",
+      "bucket": "AWS_BUCKET_NAME",
       "accessKeyId": "AWS_ACCESS_KEY_ID",
       "secretAccessKey": "AWS_SECRET_ACCESS_KEY",
       "keyLength": 20

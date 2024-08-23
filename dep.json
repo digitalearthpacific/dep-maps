@@ -17,14 +17,30 @@
       }
     },
     {
-      "type": "wms",
+      "type": "wmts",
+      "isGeoServer": "false",
       "name": "Pacific Coastlines V2",
-      "url": "https://dep-geoserver.westeurope.cloudapp.azure.com/geoserver/dep/wms",
-      "layers": "dep:coastlines_v2",
+      "url": "https://tileserver.prod.digitalearthpacific.io/styles/coastlines/wmts.xml",
+      "layer": "coastlines-256",
+      "style": "default",
       "tileErrorHandlingOptions": {
         "thresholdBeforeDisablingItem": 20,
         "ignoreUnknownTileErrors": true
-      }
+      },
+      "availableStyles": [
+        {
+          "layerName": "coastlines-256",
+          "styles": [
+            {
+              "identifier": "default",
+              "isDefault": "true",
+              "legend": {
+                "url": "https://raw.githubusercontent.com/digitalearthpacific/dep-coastlines/main/docs/DEP_Coastlines_legend.png"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "wms",

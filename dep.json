@@ -7,19 +7,9 @@
   },
   "catalog": [
     {
-      "type": "wms",
-      "name": "Pacific Coastlines",
-      "url": "https://dep-geoserver.westeurope.cloudapp.azure.com/geoserver/dep/wms",
-      "layers": "dep:dep_coastlines",
-      "tileErrorHandlingOptions": {
-        "thresholdBeforeDisablingItem": 20,
-        "ignoreUnknownTileErrors": true
-      }
-    },
-    {
       "type": "wmts",
       "isGeoServer": "false",
-      "name": "Pacific Coastlines V2",
+      "name": "Pacific Coastlines",
       "url": "https://tileserver.prod.digitalearthpacific.io/styles/coastlines/wmts.xml",
       "layer": "coastlines-256",
       "style": "default",

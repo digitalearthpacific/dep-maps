@@ -8,11 +8,9 @@
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
     "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhZDA5MjlhOS0zN2NkLTQ1YjMtOTg1Zi05NjY3NTk2ZjMzNTciLCJpZCI6MTY5ODg1LCJpYXQiOjE2OTY0MDI4NTV9.jyve8JF5xTmRaixpy50qfvD7xwS2TV5tUhD0pwJXKqE",
+    "bingMapsKey": "AqGvDQC1KQg8xtFo7EIyjR_qDI-IFV52af3enY73VxyALmMbMcs-1QQTHdC-V9y7",
     "relatedMaps": null,
     "aboutButtonHrefUrl": "https://digitalearthpacific.org/",
-    // Log ConsoleAnalytics events to console
-    // logToConsole: true,
-    /* Text that appears at the bottom of the map */
     "disclaimer": {
       "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
       "url": ""

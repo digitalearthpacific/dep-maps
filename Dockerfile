@@ -1,4 +1,4 @@
-FROM ghcr.io/terriajs/terriamap:0.0.8
+FROM ghcr.io/terriajs/terriamap:0.2.1
 
 ADD wwwroot/config.json /app/wwwroot/
 ADD wwwroot/dep-terria.png /app/wwwroot/images/

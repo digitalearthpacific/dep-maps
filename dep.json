@@ -35,7 +35,7 @@
     {
       "type": "wms",
       "name": "Pacific Water Observations from Space (Landsat)",
-      "url": "https://dep-geoserver.westeurope.cloudapp.azure.com/geoserver/dep/wms",
+      "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
       "layers": "dep:dep_ls_wofs",
       "tileErrorHandlingOptions": {
         "thresholdBeforeDisablingItem": 20,
@@ -45,7 +45,7 @@
     {
       "type": "wms",
       "name": "Pacific Mangroves (Sentinel 2)",
-      "url": "https://dep-geoserver.westeurope.cloudapp.azure.com/geoserver/dep/wms",
+      "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
       "layers": "dep:dep_s2_mangroves",
       "tileErrorHandlingOptions": {
         "thresholdBeforeDisablingItem": 20,
@@ -55,18 +55,8 @@
     {
       "type": "wms",
       "name": "Fiji Development Minerals Monitoring (Beta)",
-      "url": "https://dep-geoserver.westeurope.cloudapp.azure.com/geoserver/dep/wms",
-      "layers": "dep:dep_fj_gravel",
-      "tileErrorHandlingOptions": {
-        "thresholdBeforeDisablingItem": 20,
-        "ignoreUnknownTileErrors": true
-      }
-    },
-    {
-      "type": "wms",
-      "name": "Tongatapu Landcover 2023",
-      "url": "https://dep-geoserver.westeurope.cloudapp.azure.com/geoserver/dep/wms",
-      "layers": "dep:dep_tongatapu_landcover_2023",
+      "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
+      "layers": "dep:dep_s2s1_mrd",
       "tileErrorHandlingOptions": {
         "thresholdBeforeDisablingItem": 20,
         "ignoreUnknownTileErrors": true

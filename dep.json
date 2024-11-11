@@ -72,7 +72,7 @@
                     "name": "Sentinel-2 Cloudless 2017",
                     "type": "wms",
                     "url": "https://tiles.maps.eox.at/wms/",
-                    "layers": "2cloudless-2017_3857",
+                    "layers": "s2cloudless-2017_3857",
                     "opacity": 1
                 },
                 {

@@ -72,8 +72,7 @@
                     "name": "Sentinel-2 Cloudless 2017",
                     "type": "wms",
                     "url": "https://tiles.maps.eox.at/wms/",
-                    "layer": "2cloudless-2017_3857",
-                    "style": "default",
+                    "layers": "2cloudless-2017_3857",
                     "opacity": 1
                 },
                 {
@@ -81,8 +80,7 @@
                     "name": "Sentinel-2 Cloudless 2018",
                     "type": "wms",
                     "url": "https://tiles.maps.eox.at/wms/",
-                    "layer": "s2cloudless-2018_3857",
-                    "style": "default",
+                    "layers": "s2cloudless-2018_3857",
                     "opacity": 1
                 },
                 {
@@ -90,44 +88,39 @@
                     "name": "Sentinel-2 Cloudless 2019",
                     "type": "wms",
                     "url": "https://tiles.maps.eox.at/wms/",
-                    "layer": "s2cloudless-2019_3857",
-                    "style": "default",
+                    "layers": "s2cloudless-2019_3857",
                     "opacity": 1
                 },
                 {
-                    "id": "B8gpm2I3gB",
+                    "id": "M8gpm2I3gB",
                     "name": "Sentinel-2 Cloudless 2020",
                     "type": "wms",
                     "url": "https://tiles.maps.eox.at/wms/",
-                    "layer": "s2cloudless-2020_3857",
-                    "style": "default",
+                    "layers": "s2cloudless-2020_3857",
                     "opacity": 1
                 },
                 {
-                    "id": "B8gpm2I3gBdf2",
+                    "id": "F8gpm2I3gBdf2",
                     "name": "Sentinel-2 Cloudless 2021",
                     "type": "wms",
                     "url": "https://tiles.maps.eox.at/wms/",
-                    "layer": "s2cloudless-2021_3857",
-                    "style": "default",
+                    "layers": "s2cloudless-2021_3857",
                     "opacity": 1
                 },
                 {
-                    "id": "B8gpm2I3gBd4",
+                    "id": "L8gpm2I3gBd4",
                     "name": "Sentinel-2 Cloudless 2022",
                     "type": "wms",
                     "url": "https://tiles.maps.eox.at/wms/",
-                    "layer": "s2cloudless-2022_3857",
-                    "style": "default",
+                    "layers": "s2cloudless-2022_3857",
                     "opacity": 1
                 },
                 {
-                    "id": "B8gpm2I3gB89",
+                    "id": "K8gpm2I3gB89",
                     "name": "Sentinel-2 Cloudless 2023",
                     "type": "wms",
                     "url": "https://tiles.maps.eox.at/wms/",
-                    "layer": "s2cloudless-2023_3857",
-                    "style": "default",
+                    "layers": "s2cloudless-2023_3857",
                     "opacity": 1
                 }
             ]

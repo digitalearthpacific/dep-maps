@@ -122,6 +122,20 @@
                     "url": "https://tiles.maps.eox.at/wms/",
                     "layers": "s2cloudless-2023_3857",
                     "opacity": 1
+                },
+                {
+                    "id": "J8gpm2I3gB78",
+                    "name": "Sentinel-2 GeoMAD (Beta)",
+                    "type": "wms",
+                    "url": "https://ows.staging.digitalearthpacific.io/",
+                    "layers": "dep_s2_geomad",
+                    "opacity": 1,
+                    "rectangle": {
+                        "east": 180,
+                        "north": 21.466825745635145,
+                        "south": -30.295196431051007,
+                        "west": -180
+                    }
                 }
             ]
         }

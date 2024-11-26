@@ -71,7 +71,7 @@
                     "id": "J8gpm2I3gB78",
                     "name": "Sentinel-2 GeoMAD (Beta)",
                     "type": "wms",
-                    "url": "https://ows.digitalearthpacific.io/",
+                    "url": "https://ows.prod.digitalearthpacific.io/",
                     "layers": "dep_s2_geomad",
                     "opacity": 1,
                     "rectangle": {

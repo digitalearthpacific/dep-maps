@@ -65,11 +65,11 @@
         {
             "id": "geomadgroup",
             "type": "group",
-            "name": "GeoMADs",
+            "name": "Geometric Median and Median Absolute Deviation (GeoMAD)",
             "members": [
                 {
                     "id": "J8gpm2I3gB78",
-                    "name": "Sentinel-2 GeoMAD (Beta)",
+                    "name": "Sentinel-2 GeoMAD 2017-2023 (Beta)",
                     "type": "wms",
                     "url": "https://ows.prod.digitalearthpacific.io/",
                     "layers": "dep_s2_geomad",

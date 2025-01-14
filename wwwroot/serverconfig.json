@@ -33,5 +33,6 @@
     }
   },
   "newShareUrlPrefix": "s",
-  "hostName": "https://maps.digitalearthpacific.org"
+  "hostName": "https://maps.digitalearthpacific.org",
+  "shareMaxRequestSize": "1024kb"
 }

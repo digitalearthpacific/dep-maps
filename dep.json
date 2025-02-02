@@ -69,7 +69,7 @@
             "members": [
                 {
                     "id": "J8gpm2I3gB78",
-                    "name": "Sentinel-2 GeoMAD 2017-2023 (Beta)",
+                    "name": "Sentinel-2 GeoMAD 2017-2024 (Alpha)",
                     "type": "wms",
                     "url": "https://ows.prod.digitalearthpacific.io/",
                     "layers": "dep_s2_geomad",

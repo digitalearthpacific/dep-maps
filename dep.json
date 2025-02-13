@@ -84,6 +84,35 @@
             ]
         },
         {
+            "id": "intertidalgroup",
+            "type": "group",
+            "name": "Intertidal",
+            "members": [
+                {
+                    "id": "J8gpm2I3gB7856",
+                    "name": "Intertidal Elevation (Alpha)",
+                    "type": "wms",
+                    "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
+                    "layers": "dep:dep_s2ls_intertidal_elevation",
+                    "tileErrorHandlingOptions": {
+                        "thresholdBeforeDisablingItem": 20,
+                        "ignoreUnknownTileErrors": true
+                    }
+                },
+                {
+                    "id": "J8gpm2I3gB7823",
+                    "name": "Intertidal Exposure (Alpha)",
+                    "type": "wms",
+                    "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
+                    "layers": "dep:dep_s2ls_intertidal_exposure",
+                    "tileErrorHandlingOptions": {
+                        "thresholdBeforeDisablingItem": 20,
+                        "ignoreUnknownTileErrors": true
+                    }
+                }
+            ]
+        },
+        {
             "id": "IaRi3Qn1pj",
             "type": "group",
             "name": "Cloudless Moasics",

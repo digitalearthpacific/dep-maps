@@ -1,255 +1,284 @@
 {
-    "homeCamera": {
-        "north": -8,
-        "east": 178,
-        "south": -25,
-        "west": 178
-    },
-    "catalog": [
+  "homeCamera": {
+    "north": -8,
+    "east": 178,
+    "south": -25,
+    "west": 178
+  },
+  "catalog": [
+    {
+      "type": "wmts",
+      "isGeoServer": "false",
+      "name": "Pacific Coastlines (beta)",
+      "url": "https://tileserver.prod.digitalearthpacific.io/styles/coastlines/wmts.xml",
+      "description": "The Digital Earth Pacific coastlines product is a representation of annual shoreline positions. It estimates the edge of water location at near mean tide level within each year. It is currently a beta-level product for 2000-2023 and undergoing additional development, uncertainty masking, and validation. The years of available data vary based on the availability of source Landsat satellite imagery within a particular location. The coastlines product can be useful for monitoring patterns of movement in annual shoreline locations and determining the velocity and direction of any changes. The product does not attempt to determine causal factors for any observed changes. It may be used in combination with local observations and knowledge, or other external information to better understand possible causes and effects. Current coastlines version: 0.7.0.54",
+      "layer": "coastlines-256",
+      "style": "default",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      },
+      "availableStyles": [
         {
-            "type": "wmts",
-            "isGeoServer": "false",
-            "name": "Pacific Coastlines",
-            "url": "https://tileserver.prod.digitalearthpacific.io/styles/coastlines/wmts.xml",
-            "layer": "coastlines-256",
-            "style": "default",
-            "tileErrorHandlingOptions": {
-                "thresholdBeforeDisablingItem": 20,
-                "ignoreUnknownTileErrors": true
-            },
-            "availableStyles": [
-                {
-                    "layerName": "coastlines-256",
-                    "styles": [
-                        {
-                            "identifier": "default",
-                            "isDefault": "true",
-                            "legend": {
-                                "url": "https://raw.githubusercontent.com/digitalearthpacific/dep-coastlines/main/docs/DEP_Coastlines_legend.png"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "wms",
-            "name": "Pacific Water Observations from Space (Landsat)",
-            "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
-            "layers": "dep:dep_ls_wofs",
-            "tileErrorHandlingOptions": {
-                "thresholdBeforeDisablingItem": 20,
-                "ignoreUnknownTileErrors": true
+          "layerName": "coastlines-256",
+          "styles": [
+            {
+              "identifier": "default",
+              "isDefault": "true",
+              "legend": {
+                "url": "https://raw.githubusercontent.com/digitalearthpacific/dep-coastlines/main/docs/DEP_Coastlines_legend.png"
+              }
             }
-        },
-        {
-            "type": "wms",
-            "name": "Pacific Mangroves (Sentinel 2)",
-            "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
-            "layers": "dep:dep_s2_mangroves",
-            "tileErrorHandlingOptions": {
-                "thresholdBeforeDisablingItem": 20,
-                "ignoreUnknownTileErrors": true
-            }
-        },
-        {
-            "type": "wms",
-            "name": "Fiji Development Minerals Monitoring (Beta)",
-            "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
-            "layers": "dep:dep_s2s1_mrd",
-            "tileErrorHandlingOptions": {
-                "thresholdBeforeDisablingItem": 20,
-                "ignoreUnknownTileErrors": true
-            }
-        },
-        {
-            "id": "geomadgroup",
-            "type": "group",
-            "name": "Geometric Median and Median Absolute Deviation (GeoMAD)",
-            "members": [
-                {
-                    "id": "J8gpm2I3gB78",
-                    "name": "Sentinel-2 GeoMAD 2017-2024 (Alpha)",
-                    "type": "wms",
-                    "url": "https://ows.prod.digitalearthpacific.io/",
-                    "layers": "dep_s2_geomad",
-                    "opacity": 1,
-                    "rectangle": {
-                        "east": 180,
-                        "north": 25,
-                        "south": -35,
-                        "west": -180
-                    }
-                }
-            ]
-        },
-        {
-            "id": "intertidalgroup",
-            "type": "group",
-            "name": "Intertidal",
-            "members": [
-                {
-                    "id": "J8gpm2I3gB7856",
-                    "name": "Intertidal Elevation (Alpha)",
-                    "type": "wms",
-                    "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
-                    "layers": "dep:dep_s2ls_intertidal_elevation",
-                    "tileErrorHandlingOptions": {
-                        "thresholdBeforeDisablingItem": 20,
-                        "ignoreUnknownTileErrors": true
-                    }
-                },
-                {
-                    "id": "J8gpm2I3gB7823",
-                    "name": "Intertidal Exposure (Alpha)",
-                    "type": "wms",
-                    "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
-                    "layers": "dep:dep_s2ls_intertidal_exposure",
-                    "tileErrorHandlingOptions": {
-                        "thresholdBeforeDisablingItem": 20,
-                        "ignoreUnknownTileErrors": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "IaRi3Qn1pj",
-            "type": "group",
-            "name": "Cloudless Moasics",
-            "members": [
-                {
-                    "id": "lIvVnuKJA9",
-                    "name": "Sentinel-2 Cloudless 2017",
-                    "type": "wms",
-                    "url": "https://tiles.maps.eox.at/wms/",
-                    "layers": "s2cloudless-2017_3857",
-                    "opacity": 1
-                },
-                {
-                    "id": "jCJmccfll6",
-                    "name": "Sentinel-2 Cloudless 2018",
-                    "type": "wms",
-                    "url": "https://tiles.maps.eox.at/wms/",
-                    "layers": "s2cloudless-2018_3857",
-                    "opacity": 1
-                },
-                {
-                    "id": "HrWLyyyo6V",
-                    "name": "Sentinel-2 Cloudless 2019",
-                    "type": "wms",
-                    "url": "https://tiles.maps.eox.at/wms/",
-                    "layers": "s2cloudless-2019_3857",
-                    "opacity": 1
-                },
-                {
-                    "id": "M8gpm2I3gB",
-                    "name": "Sentinel-2 Cloudless 2020",
-                    "type": "wms",
-                    "url": "https://tiles.maps.eox.at/wms/",
-                    "layers": "s2cloudless-2020_3857",
-                    "opacity": 1
-                },
-                {
-                    "id": "F8gpm2I3gBdf2",
-                    "name": "Sentinel-2 Cloudless 2021",
-                    "type": "wms",
-                    "url": "https://tiles.maps.eox.at/wms/",
-                    "layers": "s2cloudless-2021_3857",
-                    "opacity": 1
-                },
-                {
-                    "id": "L8gpm2I3gBd4",
-                    "name": "Sentinel-2 Cloudless 2022",
-                    "type": "wms",
-                    "url": "https://tiles.maps.eox.at/wms/",
-                    "layers": "s2cloudless-2022_3857",
-                    "opacity": 1
-                },
-                {
-                    "id": "K8gpm2I3gB89",
-                    "name": "Sentinel-2 Cloudless 2023",
-                    "type": "wms",
-                    "url": "https://tiles.maps.eox.at/wms/",
-                    "layers": "s2cloudless-2023_3857",
-                    "opacity": 1
-                }
-            ]
+          ]
         }
-    ],
-    "viewerMode": "2d",
-    "baseMaps": {
-        "defaultBaseMapId": "basemap-voyager",
-        "enabledBaseMaps": [
-            "basemap-voyager",
-            "basemap-esri-world",
-            "basemap-esri-world-with-labels",
-            "basemap-positron",
-            "basemap-darkmatter"
-        ],
-        "items": [
-            {
-                "item": {
-                    "id": "basemap-voyager",
-                    "type": "open-street-map",
-                    "name": "Voyager",
-                    "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
-                    "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
-                    "opacity": 1.0,
-                    "subdomains": [
-                        "cartodb-basemaps-a",
-                        "cartodb-basemaps-b",
-                        "cartodb-basemaps-c",
-                        "cartodb-basemaps-d"
-                    ]
-                },
-                "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/voyager.png"
-            },
-            {
-                "item": {
-                    "id": "basemap-esri-world",
-                    "type": "esri-mapServer",
-                    "name": "Esri World Imagery",
-                    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
-                    "layers": "World Imagery",
-                    "opacity": 1.0
-                },
-                "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImagery.png"
-            },
-            {
-                "item": {
-                    "id": "basemap-esri-world-with-labels-raw",
-                    "type": "wmts",
-                    "name": "Esri World Labels",
-                    "url": "https://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
-                    "layer": "Reference_World_Boundaries_and_Places",
-                    "opacity": 1.0
-                },
-                "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
-            },
-            {
-                "item": {
-                    "id": "basemap-esri-world-with-labels",
-                    "name": "Esri World Labels",
-                    "type": "composite",
-                    "members": [
-                        "basemap-esri-world-with-labels-raw",
-                        "basemap-esri-world"
-                    ]
-                },
-                "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
-            },
-            {
-                "item": "basemap-natural-earth-II",
-                "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/NaturalEarthII.png"
-            },
-            {
-                "item": "basemap-positron",
-                "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/Positron(Light).png"
-            },
-            {
-                "item": "basemap-darkmatter",
-                "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/DarkMatter.png"
-            }
-        ]
+      ]
+    },
+    {
+      "id": "wofs_group",
+      "type": "group",
+      "name": "Water Observations from Space (beta)",
+      "members": [
+        {
+          "type": "wms",
+          "name": "WOfS alltime summary (beta)",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "wofs_ls_summary_alltime",
+          "tileErrorHandlingOptions": {
+            "thresholdBeforeDisablingItem": 20,
+            "ignoreUnknownTileErrors": true
+          }
+        },
+        {
+          "type": "wms",
+          "name": "WOfS annual summary (beta)",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "wofs_ls_summary_annual",
+          "tileErrorHandlingOptions": {
+            "thresholdBeforeDisablingItem": 20,
+            "ignoreUnknownTileErrors": true
+          }
+        },
+        {
+          "type": "wms",
+          "name": "Water Observation Feature Layer Daily (beta)",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "dep_ls_wofl",
+          "tileErrorHandlingOptions": {
+            "thresholdBeforeDisablingItem": 20,
+            "ignoreUnknownTileErrors": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "wms",
+      "name": "Pacific Mangroves (Sentinel 2)",
+      "url": "https://ows.prod.digitalearthpacific.io/",
+      "layers": "mangroves",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      }
+    },
+    {
+      "type": "wms",
+      "name": "Fiji Development Minerals Monitoring (Beta)",
+      "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
+      "layers": "dep:dep_s2s1_mrd",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      }
+    },
+    {
+      "id": "geomadgroup",
+      "type": "group",
+      "name": "Geometric Median and Median Absolute Deviation (GeoMAD)",
+      "members": [
+        {
+          "id": "J8gpm2I3gB78",
+          "name": "Sentinel-2 GeoMAD 2017-2024 (Alpha)",
+          "type": "wms",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "dep_s2_geomad",
+          "opacity": 1,
+          "rectangle": {
+            "east": 180,
+            "north": 25,
+            "south": -35,
+            "west": -180
+          }
+        }
+      ]
+    },
+    {
+      "id": "intertidalgroup",
+      "type": "group",
+      "name": "Intertidal",
+      "members": [
+        {
+          "id": "J8gpm2I3gB7856",
+          "name": "Intertidal Elevation (Alpha)",
+          "type": "wms",
+          "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
+          "layers": "dep:dep_s2ls_intertidal_elevation",
+          "tileErrorHandlingOptions": {
+            "thresholdBeforeDisablingItem": 20,
+            "ignoreUnknownTileErrors": true
+          }
+        },
+        {
+          "id": "J8gpm2I3gB7823",
+          "name": "Intertidal Exposure (Alpha)",
+          "type": "wms",
+          "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
+          "layers": "dep:dep_s2ls_intertidal_exposure",
+          "tileErrorHandlingOptions": {
+            "thresholdBeforeDisablingItem": 20,
+            "ignoreUnknownTileErrors": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "IaRi3Qn1pj",
+      "type": "group",
+      "name": "Cloudless Moasics",
+      "members": [
+        {
+          "id": "lIvVnuKJA9",
+          "name": "Sentinel-2 Cloudless 2017",
+          "type": "wms",
+          "url": "https://tiles.maps.eox.at/wms/",
+          "layers": "s2cloudless-2017_3857",
+          "opacity": 1
+        },
+        {
+          "id": "jCJmccfll6",
+          "name": "Sentinel-2 Cloudless 2018",
+          "type": "wms",
+          "url": "https://tiles.maps.eox.at/wms/",
+          "layers": "s2cloudless-2018_3857",
+          "opacity": 1
+        },
+        {
+          "id": "HrWLyyyo6V",
+          "name": "Sentinel-2 Cloudless 2019",
+          "type": "wms",
+          "url": "https://tiles.maps.eox.at/wms/",
+          "layers": "s2cloudless-2019_3857",
+          "opacity": 1
+        },
+        {
+          "id": "M8gpm2I3gB",
+          "name": "Sentinel-2 Cloudless 2020",
+          "type": "wms",
+          "url": "https://tiles.maps.eox.at/wms/",
+          "layers": "s2cloudless-2020_3857",
+          "opacity": 1
+        },
+        {
+          "id": "F8gpm2I3gBdf2",
+          "name": "Sentinel-2 Cloudless 2021",
+          "type": "wms",
+          "url": "https://tiles.maps.eox.at/wms/",
+          "layers": "s2cloudless-2021_3857",
+          "opacity": 1
+        },
+        {
+          "id": "L8gpm2I3gBd4",
+          "name": "Sentinel-2 Cloudless 2022",
+          "type": "wms",
+          "url": "https://tiles.maps.eox.at/wms/",
+          "layers": "s2cloudless-2022_3857",
+          "opacity": 1
+        },
+        {
+          "id": "K8gpm2I3gB89",
+          "name": "Sentinel-2 Cloudless 2023",
+          "type": "wms",
+          "url": "https://tiles.maps.eox.at/wms/",
+          "layers": "s2cloudless-2023_3857",
+          "opacity": 1
+        }
+      ]
     }
+  ],
+  "viewerMode": "2d",
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-voyager",
+    "enabledBaseMaps": [
+      "basemap-voyager",
+      "basemap-esri-world",
+      "basemap-esri-world-with-labels",
+      "basemap-positron",
+      "basemap-darkmatter"
+    ],
+    "items": [
+      {
+        "item": {
+          "id": "basemap-voyager",
+          "type": "open-street-map",
+          "name": "Voyager",
+          "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
+          "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
+          "opacity": 1.0,
+          "subdomains": [
+            "cartodb-basemaps-a",
+            "cartodb-basemaps-b",
+            "cartodb-basemaps-c",
+            "cartodb-basemaps-d"
+          ]
+        },
+        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/voyager.png"
+      },
+      {
+        "item": {
+          "id": "basemap-esri-world",
+          "type": "esri-mapServer",
+          "name": "Esri World Imagery",
+          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "layers": "World Imagery",
+          "opacity": 1.0
+        },
+        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImagery.png"
+      },
+      {
+        "item": {
+          "id": "basemap-esri-world-with-labels-raw",
+          "type": "wmts",
+          "name": "Esri World Labels",
+          "url": "https://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
+          "layer": "Reference_World_Boundaries_and_Places",
+          "opacity": 1.0
+        },
+        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
+      },
+      {
+        "item": {
+          "id": "basemap-esri-world-with-labels",
+          "name": "Esri World Labels",
+          "type": "composite",
+          "members": [
+            "basemap-esri-world-with-labels-raw",
+            "basemap-esri-world"
+          ]
+        },
+        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
+      },
+      {
+        "item": "basemap-natural-earth-II",
+        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/NaturalEarthII.png"
+      },
+      {
+        "item": "basemap-positron",
+        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/Positron(Light).png"
+      },
+      {
+        "item": "basemap-darkmatter",
+        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/DarkMatter.png"
+      }
+    ]
+  }
 }
+

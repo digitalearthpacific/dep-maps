@@ -9,7 +9,7 @@
     {
       "type": "wmts",
       "isGeoServer": "false",
-      "name": "Pacific Coastlines (beta)",
+      "name": "Pacific Coastlines (Beta)",
       "url": "https://tileserver.prod.digitalearthpacific.io/styles/coastlines/wmts.xml",
       "description": "The Digital Earth Pacific coastlines product is a representation of annual shoreline positions. It estimates the edge of water location at near mean tide level within each year. It is currently a beta-level product for 2000-2023 and undergoing additional development, uncertainty masking, and validation. The years of available data vary based on the availability of source Landsat satellite imagery within a particular location. The coastlines product can be useful for monitoring patterns of movement in annual shoreline locations and determining the velocity and direction of any changes. The product does not attempt to determine causal factors for any observed changes. It may be used in combination with local observations and knowledge, or other external information to better understand possible causes and effects. Current coastlines version: 0.7.0.54",
       "layer": "coastlines-256",
@@ -36,11 +36,11 @@
     {
       "id": "wofs_group",
       "type": "group",
-      "name": "Water Observations from Space (beta)",
+      "name": "Water Observations from Space (Beta)",
       "members": [
         {
           "type": "wms",
-          "name": "WOfS alltime summary (beta)",
+          "name": "WOfS alltime summary (Beta)",
           "url": "https://ows.prod.digitalearthpacific.io/",
           "layers": "wofs_ls_summary_alltime",
           "tileErrorHandlingOptions": {
@@ -50,7 +50,7 @@
         },
         {
           "type": "wms",
-          "name": "WOfS annual summary (beta)",
+          "name": "WOfS annual summary (Beta)",
           "url": "https://ows.prod.digitalearthpacific.io/",
           "layers": "wofs_ls_summary_annual",
           "tileErrorHandlingOptions": {
@@ -60,7 +60,7 @@
         },
         {
           "type": "wms",
-          "name": "Water Observation Feature Layer Daily (beta)",
+          "name": "Water Observation Feature Layer Daily (Beta)",
           "url": "https://ows.prod.digitalearthpacific.io/",
           "layers": "dep_ls_wofl",
           "tileErrorHandlingOptions": {
@@ -281,4 +281,3 @@
     ]
   }
 }
-

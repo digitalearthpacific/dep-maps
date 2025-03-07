@@ -40,7 +40,7 @@
       "members": [
         {
           "type": "wms",
-          "name": "WOfS alltime summary (Beta)",
+          "name": "WOfS all-time summary (Beta)",
           "url": "https://ows.prod.digitalearthpacific.io/",
           "layers": "wofs_ls_summary_alltime",
           "tileErrorHandlingOptions": {
@@ -50,7 +50,7 @@
         },
         {
           "type": "wms",
-          "name": "Pacific Water Observations from Space (Landsat)",
+          "name": "WOfS annual summary (Beta)",
           "url": "https://ows.prod.digitalearthpacific.io/",
           "layers": "wofs_ls_summary_annual",
           "tileErrorHandlingOptions": {

@@ -51,7 +51,8 @@
         },
         {
           "type": "wms",
-          "name": "WOfS annual summary (Beta)",
+          "name": "Pacific Water Observations from Space (Landsat)",
+          "nameInCatalog": "WOfS annual summary (Beta)",
           "url": "https://ows.prod.digitalearthpacific.io/",
           "layers": "wofs_ls_summary_annual",
           "tileErrorHandlingOptions": {

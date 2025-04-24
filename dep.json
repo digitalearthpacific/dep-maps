@@ -56,7 +56,8 @@
           "tileErrorHandlingOptions": {
             "thresholdBeforeDisablingItem": 20,
             "ignoreUnknownTileErrors": true
-          }
+          },
+          "dateFormat": "UTC:yyyy"
         },
         {
           "type": "wms",
@@ -78,7 +79,8 @@
       "tileErrorHandlingOptions": {
         "thresholdBeforeDisablingItem": 20,
         "ignoreUnknownTileErrors": true
-      }
+      },
+      "dateFormat": "UTC:yyyy"
     },
     {
       "type": "wms",
@@ -107,7 +109,8 @@
             "north": 25,
             "south": -35,
             "west": -180
-          }
+          },
+          "dateFormat": "UTC:yyyy"
         }
       ]
     },

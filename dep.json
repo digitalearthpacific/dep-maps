@@ -73,7 +73,7 @@
     },
     {
       "type": "wms",
-      "name": "Pacific Mangroves (Sentinel 2)",
+      "name": "Pacific Mangroves (Beta)",
       "url": "https://ows.prod.digitalearthpacific.io/",
       "layers": "mangroves",
       "tileErrorHandlingOptions": {
@@ -84,7 +84,7 @@
     },
     {
       "type": "wms",
-      "name": "Pacific Satellite Derived Bathymetry (Sentinel 2)",
+      "name": "Pacific Satellite Derived Bathymetry (Alpha)",
       "url": "https://ows.prod.digitalearthpacific.io/",
       "layers": "sdb",
       "tileErrorHandlingOptions": {

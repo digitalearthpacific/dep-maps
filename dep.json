@@ -84,6 +84,17 @@
     },
     {
       "type": "wms",
+      "name": "Pacific Satellite Derived Bathymetry (Sentinel 2)",
+      "url": "https://ows.prod.digitalearthpacific.io/",
+      "layers": "sdb",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      },
+      "dateFormat": "UTC:yyyy"
+    },
+    {
+      "type": "wms",
       "name": "Fiji Development Minerals Monitoring (Beta)",
       "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
       "layers": "dep:dep_s2s1_mrd",

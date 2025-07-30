@@ -73,9 +73,20 @@
     },
     {
       "type": "wms",
-      "name": "Pacific Mangroves (Sentinel 2)",
+      "name": "Pacific Mangroves (Beta)",
       "url": "https://ows.prod.digitalearthpacific.io/",
       "layers": "mangroves",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      },
+      "dateFormat": "UTC:yyyy"
+    },
+    {
+      "type": "wms",
+      "name": "Pacific Satellite Derived Bathymetry (Alpha)",
+      "url": "https://ows.prod.digitalearthpacific.io/",
+      "layers": "sdb",
       "tileErrorHandlingOptions": {
         "thresholdBeforeDisablingItem": 20,
         "ignoreUnknownTileErrors": true
@@ -115,38 +126,20 @@
       ]
     },
     {
-      "id": "intertidalgroup",
-      "type": "group",
-      "name": "Intertidal",
-      "members": [
-        {
-          "id": "J8gpm2I3gB7856",
-          "name": "Intertidal Elevation (Alpha)",
-          "type": "wms",
-          "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
-          "layers": "dep:dep_s2ls_intertidal_elevation",
-          "tileErrorHandlingOptions": {
-            "thresholdBeforeDisablingItem": 20,
-            "ignoreUnknownTileErrors": true
-          }
-        },
-        {
-          "id": "J8gpm2I3gB7823",
-          "name": "Intertidal Exposure (Alpha)",
-          "type": "wms",
-          "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
-          "layers": "dep:dep_s2ls_intertidal_exposure",
-          "tileErrorHandlingOptions": {
-            "thresholdBeforeDisablingItem": 20,
-            "ignoreUnknownTileErrors": true
-          }
-        }
-      ]
+      "type": "wms",
+      "name": "Pacific Intertidal Model (Alpha)",
+      "url": "https://ows.prod.digitalearthpacific.io/",
+      "layers": "dep_s2ls_intertidal",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      },
+      "dateFormat": "UTC:yyyy"
     },
     {
       "id": "IaRi3Qn1pj",
       "type": "group",
-      "name": "Cloudless Moasics",
+      "name": "Cloudless Mosaics",
       "members": [
         {
           "id": "lIvVnuKJA9",

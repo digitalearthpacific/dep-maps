@@ -84,6 +84,17 @@
     },
     {
       "type": "wms",
+      "name": "Pacific Seagrass (Beta)",
+      "url": "https://ows.prod.digitalearthpacific.io/",
+      "layers": "deb_s2_seagrass",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      },
+      "dateFormat": "UTC:yyyy"
+    },
+    {
+      "type": "wms",
       "name": "Pacific Satellite Derived Bathymetry (Alpha)",
       "url": "https://ows.prod.digitalearthpacific.io/",
       "layers": "sdb",

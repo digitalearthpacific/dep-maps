@@ -86,7 +86,7 @@
       "type": "wms",
       "name": "Pacific Seagrass (Beta)",
       "url": "https://ows.prod.digitalearthpacific.io/",
-      "layers": "deb_s2_seagrass",
+      "layers": "dep_s2_seagrass",
       "tileErrorHandlingOptions": {
         "thresholdBeforeDisablingItem": 20,
         "ignoreUnknownTileErrors": true

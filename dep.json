@@ -84,7 +84,7 @@
     },
     {
       "type": "wms",
-      "name": "Pacific Seagrass (Beta)",
+      "name": "Pacific Seagrass (Alpha)",
       "url": "https://ows.prod.digitalearthpacific.io/",
       "layers": "dep_s2_seagrass",
       "tileErrorHandlingOptions": {

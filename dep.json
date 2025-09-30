@@ -64,6 +64,7 @@
           "name": "Water Observation Feature Layer Daily (Beta)",
           "url": "https://ows.prod.digitalearthpacific.io/",
           "layers": "dep_ls_wofl",
+          "timeFilterPropertyName": "data_available_for_dates",
           "tileErrorHandlingOptions": {
             "thresholdBeforeDisablingItem": 20,
             "ignoreUnknownTileErrors": true

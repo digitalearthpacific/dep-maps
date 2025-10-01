@@ -149,6 +149,35 @@
       "dateFormat": "UTC:yyyy"
     },
     {
+      "id": "fc_group",
+      "type": "group",
+      "name": "Fractional Cover (alpha)",
+      "members": [
+        {
+          "type": "wms",
+          "name": "Fractional Cover Annual Summary (alpha)",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "dep_ls_fc_summary_annual",
+          "tileErrorHandlingOptions": {
+            "thresholdBeforeDisablingItem": 20,
+            "ignoreUnknownTileErrors": true
+          },
+          "dateFormat": "UTC:yyyy"
+        },
+        {
+          "type": "wms",
+          "name": "Fractional Cover Daily (alpha)",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "dep_ls_fc",
+          "timeFilterPropertyName": "data_available_for_dates",
+          "tileErrorHandlingOptions": {
+            "thresholdBeforeDisablingItem": 20,
+            "ignoreUnknownTileErrors": true
+          }
+        }
+      ]
+    },
+    {
       "id": "IaRi3Qn1pj",
       "type": "group",
       "name": "Cloudless Mosaics",

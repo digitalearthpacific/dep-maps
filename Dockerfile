@@ -1,9 +1,10 @@
-FROM ghcr.io/terriajs/terriamap:0.2.1
+FROM ghcr.io/terriajs/terriamap:0.4.2
 
 ADD wwwroot/config.json /app/wwwroot/
 ADD wwwroot/dep-terria.png /app/wwwroot/images/
 ADD wwwroot/serverconfig.json /app/serverconfig.json
 ADD wwwroot/index.html /app/wwwroot/
+ADD wwwroot/basemap-images /app/wwwroot/basemap-images
 
 ADD entrypoint.sh /entrypoint.sh
 

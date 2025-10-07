@@ -243,32 +243,40 @@
   ],
   "viewerMode": "2d",
   "baseMaps": {
-    "defaultBaseMapId": "basemap-voyager",
+    "defaultBaseMapId": "basemap-maptiler-streets-v2",
     "enabledBaseMaps": [
-      "basemap-voyager",
+      "basemap-maptiler-streets-v2",
+      // "basemap-maptiler-satellite",
       "basemap-esri-world",
       "basemap-esri-world-with-labels",
-      "basemap-positron",
-      "basemap-darkmatter"
+      "basemap-maptiler-ocean",
+      "basemap-maptiler-toner-v2"
     ],
     "items": [
       {
         "item": {
-          "id": "basemap-voyager",
-          "type": "open-street-map",
-          "name": "Voyager",
-          "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
-          "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
-          "opacity": 1.0,
-          "subdomains": [
-            "cartodb-basemaps-a",
-            "cartodb-basemaps-b",
-            "cartodb-basemaps-c",
-            "cartodb-basemaps-d"
-          ]
+          "id": "basemap-maptiler-streets-v2",
+          "type": "wmts",
+          "name": "Streets",
+          "url": "https://api.maptiler.com/maps/streets-v2/WMTSCapabilities.xml?key=2gXMkOJh0fi5Vb54iGC2",
+          "layer": "maps/streets-v2",
+          "attribution": "© MapTiler © OpenStreetMap contributors",
+          "opacity": 1.0
         },
-        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/voyager.png"
+        "image": "basemap-images/light.png"
       },
+      // {
+      //   "item": {
+      //     "id": "basemap-maptiler-satellite",
+      //     "type": "wmts",
+      //     "name": "Streets",
+      //     "url": "https://api.maptiler.com/maps/satellite/WMTSCapabilities.xml?key=2gXMkOJh0fi5Vb54iGC2",
+      //     "layer": "maps/satellite",
+      //     "attribution": "© MapTiler © OpenStreetMap contributors",
+      //     "opacity": 1.0
+      //   },
+      //   "image": "basemap-images/satellite.png"
+      // },
       {
         "item": {
           "id": "basemap-esri-world",
@@ -278,7 +286,7 @@
           "layers": "World Imagery",
           "opacity": 1.0
         },
-        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImagery.png"
+        "image": "basemap-images/satellite.png"
       },
       {
         "item": {
@@ -289,7 +297,7 @@
           "layer": "Reference_World_Boundaries_and_Places",
           "opacity": 1.0
         },
-        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
+        "image": "basemap-images/satellite-labels.png"
       },
       {
         "item": {
@@ -301,19 +309,31 @@
             "basemap-esri-world"
           ]
         },
-        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
+        "image": "basemap-images/satellite-labels.png"
       },
       {
-        "item": "basemap-natural-earth-II",
-        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/NaturalEarthII.png"
+        "item": {
+          "id": "basemap-maptiler-ocean",
+          "type": "wmts",
+          "name": "Ocean",
+          "url": "https://api.maptiler.com/maps/ocean/WMTSCapabilities.xml?key=2gXMkOJh0fi5Vb54iGC2",
+          "layer": "maps/ocean",
+          "attribution": "© MapTiler © OpenStreetMap contributors",
+          "opacity": 1.0
+        },
+        "image": "basemap-images/ocean.png"
       },
       {
-        "item": "basemap-positron",
-        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/Positron(Light).png"
-      },
-      {
-        "item": "basemap-darkmatter",
-        "image": "https://terria-catalogs-public.storage.googleapis.com/saas-bucket-temp/de-africa/dea-basemaps/DarkMatter.png"
+        "item": {
+          "id": "basemap-maptiler-toner-v2",
+          "type": "wmts",
+          "name": "Streets",
+          "url": "https://api.maptiler.com/maps/toner-v2/WMTSCapabilities.xml?key=2gXMkOJh0fi5Vb54iGC2",
+          "layer": "maps/toner-v2",
+          "attribution": "© MapTiler © OpenStreetMap contributors",
+          "opacity": 1.0
+        },
+        "image": "basemap-images/dark.png"
       }
     ]
   }

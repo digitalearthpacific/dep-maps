@@ -107,6 +107,17 @@
     },
     {
       "type": "wms",
+      "name": "Pacific Vegetation Height (Alpha)",
+      "url": "https://ows.prod.digitalearthpacific.io/",
+      "layers": "dep_s2_vegheight",
+      "tileErrorHandlingOptions": {
+        "thresholdBeforeDisablingItem": 20,
+        "ignoreUnknownTileErrors": true
+      },
+      "dateFormat": "UTC:yyyy"
+    },
+    {
+      "type": "wms",
       "name": "Fiji Development Minerals Monitoring (Beta)",
       "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
       "layers": "dep:dep_s2s1_mrd",

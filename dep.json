@@ -7,6 +7,35 @@
   },
   "catalog": [
     {
+      "id": "surface_reflectance_group",
+      "type": "group",
+      "name": "Analysis Ready Data",
+      "members": [
+        {
+          "type": "wms",
+          "name": "Landsat Surface Reflectance",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "landsat-c2-l2-sr",
+          "timeFilterPropertyName": "data_available_for_dates",
+          "tileErrorHandlingOptions": {
+            "thresholdBeforeDisablingItem": 20,
+            "ignoreUnknownTileErrors": true
+          }
+        },
+        {
+          "type": "wms",
+          "name": "Sentinel-2 Surface Reflectance",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "sentinel_2_c1_l2a",
+          "timeFilterPropertyName": "data_available_for_dates",
+          "tileErrorHandlingOptions": {
+            "thresholdBeforeDisablingItem": 20,
+            "ignoreUnknownTileErrors": true
+          }
+        }
+      ]
+    },
+    {
       "type": "wmts",
       "isGeoServer": "false",
       "name": "Pacific Coastlines (Beta)",
@@ -257,7 +286,6 @@
     "defaultBaseMapId": "basemap-maptiler-streets-v2",
     "enabledBaseMaps": [
       "basemap-maptiler-streets-v2",
-      // "basemap-maptiler-satellite",
       "basemap-esri-world",
       "basemap-esri-world-with-labels",
       "basemap-maptiler-ocean",
@@ -276,18 +304,6 @@
         },
         "image": "basemap-images/light.png"
       },
-      // {
-      //   "item": {
-      //     "id": "basemap-maptiler-satellite",
-      //     "type": "wmts",
-      //     "name": "Streets",
-      //     "url": "https://api.maptiler.com/maps/satellite/WMTSCapabilities.xml?key=2gXMkOJh0fi5Vb54iGC2",
-      //     "layer": "maps/satellite",
-      //     "attribution": "© MapTiler © OpenStreetMap contributors",
-      //     "opacity": 1.0
-      //   },
-      //   "image": "basemap-images/satellite.png"
-      // },
       {
         "item": {
           "id": "basemap-esri-world",

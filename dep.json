@@ -185,6 +185,21 @@
             "west": -180
           },
           "dateFormat": "UTC:yyyy"
+        },
+        {
+          "id": "J8gpm2I3gB79",
+          "name": "Sentinel-1 GeoMAD 2017-2024 (Alpha)",
+          "type": "wms",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "dep_s1_geomad",
+          "opacity": 1,
+          "rectangle": {
+            "east": 180,
+            "north": 25,
+            "south": -35,
+            "west": -180
+          },
+          "dateFormat": "UTC:yyyy"
         }
       ]
     },

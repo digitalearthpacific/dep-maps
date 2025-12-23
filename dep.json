@@ -158,6 +158,41 @@
     },
     {
       "type": "wms",
+      "name": "Copernicus Sentinel-2 L2A Cloudless Mosaic (Quarterly)",
+      "description": "Copernicus Sentinel-2 L2A - Quarterly Cloudless Mosaics (2020-2025). Use the 'Time' dropdown to select dates.",
+      "url": "https://sh.dataspace.copernicus.eu/ogc/wms/f1b217d7-489e-4dc0-8094-0275e7acf739",
+      "layers": "CLOUDLESS-MOSAIC-TRUE-COLOR",
+      "parameters": {
+        "format": "image/png",
+        "style": "default",
+        "transparent": "true"
+      },
+      "maxScaleDenominator": 1000000,
+      "currentTime": "2025-07-01T00:00:00Z",
+      "initialTimeSource": "none",
+      "modelDimensions": [
+        {
+          "id": "quarter",
+          "name": "Time",
+          "selectedId": "2025-07-01",
+          "options": [
+            { "id": "2020-01-01", "name": "2020-01", "value": { "currentTime": "2020-01-01T00:00:00Z" } },
+            { "id": "2020-04-01", "name": "2020-04", "value": { "currentTime": "2020-04-01T00:00:00Z" } },
+            { "id": "2020-07-01", "name": "2020-07", "value": { "currentTime": "2020-07-01T00:00:00Z" } },
+            { "id": "2020-10-01", "name": "2020-10", "value": { "currentTime": "2020-10-01T00:00:00Z" } },
+            { "id": "2024-01-01", "name": "2024-01", "value": { "currentTime": "2024-01-01T00:00:00Z" } },
+            { "id": "2024-04-01", "name": "2024-04", "value": { "currentTime": "2024-04-01T00:00:00Z" } },
+            { "id": "2024-07-01", "name": "2024-07", "value": { "currentTime": "2024-07-01T00:00:00Z" } },
+            { "id": "2024-10-01", "name": "2024-10", "value": { "currentTime": "2024-10-01T00:00:00Z" } },
+            { "id": "2025-01-01", "name": "2025-01",  "value": { "currentTime": "2025-01-01T00:00:00Z" }  },
+            { "id": "2025-04-01", "name": "2025-04",  "value": { "currentTime": "2025-04-01T00:00:00Z" }  },
+            { "id": "2025-07-01", "name": "2025-07",  "value": { "currentTime": "2025-07-01T00:00:00Z" }  }
+              ]
+            }
+          ]
+    },
+    {
+      "type": "wms",
       "name": "Fiji Development Minerals Monitoring (Beta)",
       "url": "https://geoserver.staging.digitalearthpacific.io/geoserver/dep/wms",
       "layers": "dep:dep_s2s1_mrd",

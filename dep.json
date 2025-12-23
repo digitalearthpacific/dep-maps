@@ -154,7 +154,7 @@
         "thresholdBeforeDisablingItem": 20,
         "ignoreUnknownTileErrors": true
       },
-      "dateFormat": "UTC:yyyy-MM"
+      "dateFormat": "UTC:yyyy-mm"
     },
     {
       "type": "wms",

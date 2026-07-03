@@ -172,6 +172,21 @@
       "name": "Geometric Median and Median Absolute Deviation (GeoMAD)",
       "members": [
         {
+          "id": "J8gpm2I3gB77",
+          "name": "Landsat GeoMAD 2000-2025 (Alpha)",
+          "type": "wms",
+          "url": "https://ows.prod.digitalearthpacific.io/",
+          "layers": "dep_ls_geomad",
+          "opacity": 1,
+          "rectangle": {
+            "east": 180,
+            "north": 25,
+            "south": -35,
+            "west": -180
+          },
+          "dateFormat": "UTC:yyyy"
+        },
+        {
           "id": "J8gpm2I3gB78",
           "name": "Sentinel-2 GeoMAD 2017-2025 (Alpha)",
           "type": "wms",
